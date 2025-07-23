@@ -13,6 +13,13 @@
   font-variation-settings:
     "wdth" 100;
 }
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 .text-secondary{
     color: rgba(0, 0, 0, 0.5);
 }
@@ -51,11 +58,11 @@ main{
     font-weight: 600;
 }
 .navber{
-     padding:60px 40px;
+     padding:20px 0px 150px;
     justify-content: space-between;
 }
-.nav-list img{
-    margin-right: 5px;
+.hero-image img{ 
+    width: 100%;
 }
 #text-primary{
     color: #8987A1;;
@@ -78,7 +85,7 @@ main{
 .hero-body {
   justify-content: center;
   align-items: center;
-
+  margin: 50px 0;
 }
 .hero-image{
     max-width: 100%;
@@ -89,15 +96,18 @@ main{
     align-items: center;
     margin: 200px 0;
     gap: 24px;
+    max-height: 597px;
 }
 .plants-description {
     padding:50px ;
 }
 .plants-description h3{
     font-size: 4rem;
+    margin-bottom: 5px;
 }
 .plants-description li{
-    padding: 10px 10px;
+    padding: 10px;
+    font-size: 1.2rem;
 }
 
 
@@ -125,6 +135,16 @@ main{
         font-size: 3rem;
     }
     .hero-titel p{
-        font-size: 1 rem;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .plants-lover{
+        flex-direction: column;
+        padding: 100px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .plants-lover-img img{
+        width: 100%;
     }
 }
