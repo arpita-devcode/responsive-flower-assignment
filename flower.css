@@ -1,0 +1,109 @@
+
+/* Shared style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-secondary{
+    color: rgba(0, 0, 0, 0.5);
+}
+.display-flex{
+    display: flex;
+}
+.bg-colour{
+  background-color: #f5f8ff;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.nav-list ul{
+    justify-content: center;
+    align-items: center;
+}
+.cart-nav{
+  text-align: center;
+  justify-content: center;
+}
+.nav-list ul li{
+    list-style: none;
+    padding: 38px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #252432;
+    font-weight: 600;
+}
+.navber{
+     padding:60px 40px;
+    justify-content: space-between;
+}
+.nav-list img{
+    margin-right: 5px;
+}
+#text-primary{
+    color: #8987A1;;
+}
+/* hero-section-titel */
+.hero-titel{
+    max-width: 500px;
+}
+.hero-titel h1{
+    color: black;
+    font-size:4rem;
+    font-weight: Bold;
+} 
+.hero-titel h1 span{
+    color: #E95A08;
+}
+.hero-titeln p {
+    font-size: 1rem;
+}
+.hero-body {
+  justify-content: center;
+  align-items: center;
+}
+.hero-image{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive design */
+@media screen and (max-width:576px){
+    .hero-body{
+        flex-direction: column-reverse;
+    }
+    .nav{
+        display: none;
+    }
+    .hero-image{
+    max-width: 100%;
+}
+    .hero-titel{
+        padding: 10px;
+        max-width:100%;
+    }
+}
