@@ -23,10 +23,13 @@
   background-color: #f5f8ff;
 }
 header{
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 .nav-list ul{
@@ -59,31 +62,43 @@ header{
 }
 /* hero-section-titel */
 .hero-titel{
-    max-width: 500px;
+    max-width: 650px;
 }
 .hero-titel h1{
     color: black;
-    font-size:4rem;
+    font-size:4.5rem;
     font-weight: Bold;
 } 
 .hero-titel h1 span{
     color: #E95A08;
 }
-.hero-titeln p {
-    font-size: 1rem;
+.hero-titel p {
+    font-size: 1.5rem;
 }
 .hero-body {
   justify-content: center;
   align-items: center;
+
 }
 .hero-image{
     max-width: 100%;
 }
-
-
-
-
-
+/* plants lover section */
+.plants-lover{
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    gap: 24px;
+}
+.plants-description {
+    padding:50px ;
+}
+.plants-description h3{
+    font-size: 4rem;
+}
+.plants-description li{
+    padding: 10px 10px;
+}
 
 
 
@@ -103,7 +118,13 @@ header{
     max-width: 100%;
 }
     .hero-titel{
-        padding: 10px;
+        padding:10px 20px;
         max-width:100%;
+    }
+    .hero-titel h1{
+        font-size: 3rem;
+    }
+    .hero-titel p{
+        font-size: 1 rem;
     }
 }
