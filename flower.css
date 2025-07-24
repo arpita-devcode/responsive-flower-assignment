@@ -136,7 +136,8 @@ header {
 .plant-image button{
     background-color: #E95A08;
     color: white;
-    padding: 10px 90px;
+    padding: 15px;
+    width: 100%;
     border: none;
     font-weight: 500;
     margin-top: 5px;
@@ -375,12 +376,9 @@ input[type="email"]{
         top: 50px;
         left:45px;
     }
-    .bg-form{
-        padding:0 5px;
-    }
     .form{
         font-size: 1rem;
-        padding: 50px 10px;
+        padding: 60px 10px;
     }
     input[type="email"]{
         width: 50%;
