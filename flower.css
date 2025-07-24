@@ -42,7 +42,7 @@ main {
     margin: 0 auto;
 }
 
-
+/* navber style */
 .nav-list ul {
     justify-content: center;
     align-items: center;
@@ -130,13 +130,78 @@ main {
     font-size: 1.2rem;
 }
 
+/* latest deals */
+.latest-deals {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.latest-deals-titel {
+    margin: 60px 0;
+}
+
+.latest-deals-titel h2 {
+    font-size: 3.3rem;
+}
+
+.latest-deals-titel span {
+    color: #E95A08;
+}
+
+.latest-deals-titel p {
+    font-size: 1.2rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-container img {
+    border-radius: 22px;
+    margin-bottom: 7px;
+    filter: grayscale(55%)brightness(70%) saturate(200%);
+    max-width: 100%;
+}
+
+.right-box {
+    width: 33%;
+}
+
+.left-box {
+    width: 66%;
+}
+
+.img-card {
+    position: relative;
+}
+
+.over-lay {
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.over-lay2 {
+    position: absolute;
+    bottom: 130px;
+    left: 150px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.over-lay a,
+.over-lay2 a {
+    color: white;
+}
 
 
-
-
-
-
-/* responsive design */
 @media screen and (max-width:576px) {
     .hero-body {
         flex-direction: column-reverse;
@@ -183,11 +248,35 @@ main {
         justify-content: center;
         align-items: center;
     }
-    .plants-description h3{
+
+    .plants-description h3 {
         font-size: 2.5rem;
         padding: 0px 10px;
     }
+
     .plants-lover-img img {
         width: 100%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+
+    .img-card img {
+        width: 366px;
+        height: 220px;
+        object-fit: cover;
+        /* display: block; */
+        margin-bottom: 5px;
+        /* margin: 0 auto; */
+    }
+    .img-card{
+        text-align: center;
+    }
+    .over-lay2 {
+        font-size: 1.5rem;
+        top: 50px;
+        left:45px;
     }
 }
