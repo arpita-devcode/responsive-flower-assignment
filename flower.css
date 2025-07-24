@@ -280,7 +280,7 @@ main {
         justify-content: center;
     }
     .plant-image img {
-        width: 100%;
+        max-width: 100%;
     }
     .plants-lover {
         flex-direction: column;
